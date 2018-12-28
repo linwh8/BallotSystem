@@ -1,0 +1,57 @@
+.vote-row{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .vote-person{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin:0 auto;
+
+  }
+  .vote-person:hover{
+    background-color: #eee;
+  }
+  .vote-btn{
+    margin-top: 14px;
+    width:100%;
+    border-radius: 10px;
+    border-top-left-radius:0em;
+    border-top-right-radius:0em;
+  }
+  .vote-name{
+    font-size: 18px;
+    margin-top:7px;  
+  }
+  .vote-num{
+    width:50px;
+    height:50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    margin:10px auto 6px auto;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  body {
+      background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546001507772&di=35476b8186574ecc46176e92b3b1427b&imgtype=0&src=http%3A%2F%2Fimg15.3lian.com%2F2015%2Fh1%2F162%2Fd%2F31.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+  }
+  h2 {
+      margin-bottom: 30px;
+  }
+  .a1, .a2 {
+      border-radius: 10%;
+      margin-bottom: 20px;
+  }
+  .a3, .a4 {
+    border-radius: 10%;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+button {
+    color: black;
+}

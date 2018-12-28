@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8"> 
+ <title>Ballot System</title>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body class="container">
+ <h2 class="text-center">Voting System</h2>
+
+ <div class="text-center">
+  <div>
+    Total Ticket：<br>  
+    <input class="a1" type="result" id="TotalTicket">
+  </div>
+  <div>
+    Balance Ticket：<br>
+    <input class="a2" type="result" id="BalanceTicket">
+  </div>
+  <div>
+    Add Candidate：<br>
+    <input class="a3" type="result" id="add_candidate">
+    <button id="add_candidate_btn"> 添加候选人 </button>
+  </div>
+  <div>
+    Add Voter<br>
+    <input class="a4" type="result" id="add_voter">
+    <button id="add_voter_btn"> 添加投票者 </button>
+  </div>
+</div>
+  <div class="row vote-row">
+      <div class="col-md-3 col-md-offset-1">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate1_name">Candidate 1</div>
+          <div id="candidate-1" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate2_name">Candidate 2</div>
+          <div id="candidate-2" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate3_name">Candidate 3</div>
+          <div id="candidate-3" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+  </div>
+  <div class="row vote-row">
+      <div class="col-md-3 col-md-offset-1">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate4_name">Candidate 4</div>
+          <div id="candidate-4" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate5_name">Candidate 5</div>
+          <div id="candidate-5" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate6_name">Candidate 6</div>
+          <div id="candidate-6" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+  </div>
+    <div class="row vote-row">
+      <div class="col-md-3 col-md-offset-1">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate7_name">Candidate 7</div>
+          <div id="candidate-7" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate8_name">Candidate 8</div>
+          <div id="candidate-8" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="vote-person">
+          <div class="text-center vote-name" id="candidate9_name">Candidate 9</div>
+          <div id="candidate-9" class="text-center vote-num">0</div>
+          <a href="#" class="btn btn-primary vote-btn">Click</a>
+        </div>
+      </div>
+  </div>
+   
+</body>
+<script src="./app.js"></script>
+</html>
